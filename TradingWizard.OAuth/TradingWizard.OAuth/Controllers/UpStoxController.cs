@@ -32,7 +32,7 @@ namespace TradingWizard.OAuth.Controllers
         public async Task<IActionResult> StartOAuthAsync(CancellationToken cancellationToken = default(CancellationToken))
         {
             await Task.Delay(0, cancellationToken);
-            string apikey = "ymQzopet1P9yYoHyzjhT84fQdpg4Sgy51kPff2WR";
+            string apikey = "yourApiKey";
             return Redirect(
                 $"https://api.upstox.com/index/dialog/authorize?apiKey={apikey}&redirect_uri={Configuration.Application.BaseUrl}/UpstoxOAuth/OAuthResponse&" +
                 $"response_type=code");
