@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingWizard.OAuth", "TradingWizard.OAuth\TradingWizard.OAuth.csproj", "{0C346614-F2D6-4677-B51B-D4BFD3AC18E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C346614-F2D6-4677-B51B-D4BFD3AC18E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C346614-F2D6-4677-B51B-D4BFD3AC18E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C346614-F2D6-4677-B51B-D4BFD3AC18E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C346614-F2D6-4677-B51B-D4BFD3AC18E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E623B2F-6582-4D7B-AB30-C10A83312687}
+	EndGlobalSection
+EndGlobal

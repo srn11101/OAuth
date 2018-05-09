@@ -1,0 +1,24 @@
+﻿@model Infoveave.OAuth.Models.RedirectData
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Infoveave OAuth : Please Wait</title>
+</head>
+<body>
+<form action="@Model.RedirectUrl" method="post" id="redirectForm">
+    @foreach (var item in Model.Data)
+    {
+        <input type="hidden" name="@item.Key" value="@item.Value"/>
+    }
+</form>
+<script type="text/javascript">
+    document.getElementById("redirectForm").submit();
+</script>
+</body>
+</html>
